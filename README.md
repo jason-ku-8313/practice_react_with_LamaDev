@@ -4,8 +4,6 @@
 
 ## Demo
 
-https://social-media-jk.netlify.app/
-
 ## Tech Stack
 
 - [React](https://reactjs.org/)
