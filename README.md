@@ -2,11 +2,11 @@
 
 A static website similar to Facebook. Idea from: [React Social Media App Design Tutorial | React.js UI Course Full](https://www.youtube.com/watch?v=zM93yZ_8SvE)
 
-# Demo
+## Demo
 
 https://social-media-jk.netlify.app/
 
-# Tech Stack
+## Tech Stack
 
 - [React](https://reactjs.org/)
 - [Material-UI](https://mui.com/)
