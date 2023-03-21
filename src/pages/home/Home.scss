@@ -5,11 +5,46 @@
     justify-content: center;
     padding: 100px 0;
 
+    &.dark {
+      background-color: #0d084d;
+
+      h1 {
+        color: white;
+      }
+
+      p {
+        color: white !important;
+        margin-bottom: 20px !important;
+      }
+
+      .title {
+        color: white !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+      }
+
+      img {
+        width: 100%;
+      }
+
+      button {
+        background-color: #1dbf73;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-top: 20px;
+        border: none;
+        width: max-content;
+      }
+    }
+
     .container {
       width: 1400px;
       display: flex;
       align-items: center;
-      gap: 15px;
+      gap: 200px;
 
       .item {
         display: flex;

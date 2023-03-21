@@ -30,6 +30,7 @@ export default function Navbar() {
     username: "John Doe",
     isSeller: true
   }
+  
   return (
     <div className={active || pathname !== "/" ? 'navbar active' : 'navbar'}>
       <div className="container">
@@ -70,7 +71,7 @@ export default function Navbar() {
         </div>
       </div>
       {
-        active || pathname !== "/" && (
+        (active || pathname !== "/") && (
           <>
             <hr />
             <div className="menu">
