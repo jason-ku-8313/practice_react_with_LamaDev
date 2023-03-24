@@ -30,7 +30,7 @@ export default function Navbar() {
     username: "John Doe",
     isSeller: true
   }
-  
+
   return (
     <div className={active || pathname !== "/" ? 'navbar active' : 'navbar'}>
       <div className="container">
@@ -85,6 +85,7 @@ export default function Navbar() {
               <Link to="/" className='link'>Business</Link>
               <Link to="/" className='link'>Lifestyle</Link>
             </div>
+            <hr />
           </>
         )
       }
