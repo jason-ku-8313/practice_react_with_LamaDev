@@ -56,7 +56,7 @@ export default function Navbar() {
                   {
                     currentUser.isSeller && (
                       <>
-                        <Link to="/gigs" className='link'>Gigs</Link>
+                        <Link to="/mygigs" className='link'>Gigs</Link>
                         <Link to="/add" className='link'>Add New Gig</Link>
                       </>
                     )
