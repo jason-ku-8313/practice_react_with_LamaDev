@@ -1,19 +1,19 @@
-import React from 'react'
-import Featured from '../../components/featured/Featured'
-import Slide from '../../components/Slide/Slide'
-import TrustedBy from '../../components/trustedBy/TrustedBy'
-import CatCard from '../../components/catCard/CatCard'
-import "./Home.scss"
-import { cards, projects } from '../../data'
-import ProjectCard from '../../components/projectCard/ProjectCard'
+import React from "react";
+import Featured from "../../components/featured/Featured";
+import Slide from "../../components/Slide/Slide";
+import TrustedBy from "../../components/trustedBy/TrustedBy";
+import CatCard from "../../components/catCard/CatCard";
+import "./Home.scss";
+import { cards, projects } from "../../data";
+import ProjectCard from "../../components/projectCard/ProjectCard";
 
 export default function Home() {
   return (
-    <div className='home'>
+    <div className="home">
       <Featured />
       <TrustedBy />
       <Slide slidesToShow={5} arrowsScroll={5}>
-        {cards.map(card => (
+        {cards.map((card) => (
           <CatCard key={card.id} item={card} />
         ))}
       </Slide>
@@ -34,21 +34,24 @@ export default function Home() {
               Quality work done quickly
             </div>
             <p>
-              Find the right freelancer to begin working on your project within minutes.
+              Find the right freelancer to begin working on your project within
+              minutes.
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
               Protected payments, every time
             </div>
             <p>
-              Always know what you&quot;ll pay upfront. Your payment isn&quot;t released until you approve the work.
+              Always know what you&quot;ll pay upfront. Your payment isn&quot;t
+              released until you approve the work.
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
               24/7 support
             </div>
             <p>
-              Questions? Our round-the-clock support team is available to help anytime, anywhere.
+              Questions? Our round-the-clock support team is available to help
+              anytime, anywhere.
             </p>
           </div>
           <div className="item">
@@ -60,8 +63,13 @@ export default function Home() {
         <div className="container">
           <div className="item">
             <h1>fiverr business</h1>
-            <h1>A business solution designed for <i>teams</i></h1>
-            <p>Upgrade to a curated experience packed with tools and benefits, dedicated to businesses</p>
+            <h1>
+              A business solution designed for <i>teams</i>
+            </h1>
+            <p>
+              Upgrade to a curated experience packed with tools and benefits,
+              dedicated to businesses
+            </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
               Connect to freelancers with proven business experience
@@ -82,10 +90,10 @@ export default function Home() {
         </div>
       </div>
       <Slide slidesToShow={4} arrowsScroll={4}>
-        {projects.map(card => (
+        {projects.map((card) => (
           <ProjectCard key={card.id} item={card} />
         ))}
       </Slide>
     </div>
-  )
+  );
 }

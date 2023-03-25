@@ -1,12 +1,14 @@
-import React from 'react'
-import "./Featured.scss"
+import React from "react";
+import "./Featured.scss";
 
 export default function Featured() {
   return (
     <div className="featured">
       <div className="container">
         <div className="left">
-          <h1>Find the perfect <i>freelance</i> services for your business</h1>
+          <h1>
+            Find the perfect <i>freelance</i> services for your business
+          </h1>
           <div className="search">
             <div className="searchInput">
               <img src="./img/search.png" alt="" />
@@ -27,5 +29,5 @@ export default function Featured() {
         </div>
       </div>
     </div>
-  )
+  );
 }

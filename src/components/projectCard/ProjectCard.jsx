@@ -1,10 +1,10 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "./ProjectCard.scss"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./ProjectCard.scss";
 
 export default function ProjectCard({ item }) {
   return (
-    <Link to="/" className='link'>
+    <Link to="/" className="link">
       <div className="projectCard">
         <img src={item.img} alt="" />
         <div className="info">
@@ -16,5 +16,5 @@ export default function ProjectCard({ item }) {
         </div>
       </div>
     </Link>
-  )
+  );
 }

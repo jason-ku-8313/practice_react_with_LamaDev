@@ -1,14 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "./MyGigs.scss"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./MyGigs.scss";
 
 export default function MyGigs() {
   return (
-    <div className='myGigs'>
+    <div className="myGigs">
       <div className="container">
         <div className="title">
           <h1>Gigs</h1>
-          <Link to="/add"><button>Add New Gig</button></Link>
+          <Link to="/add">
+            <button>Add New Gig</button>
+          </Link>
         </div>
         <table>
           <tr>
@@ -30,7 +32,7 @@ export default function MyGigs() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/delete.png" alt="" />
+              <img className="delete" src="/img/delete.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -45,7 +47,7 @@ export default function MyGigs() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/delete.png" alt="" />
+              <img className="delete" src="/img/delete.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -60,7 +62,7 @@ export default function MyGigs() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/delete.png" alt="" />
+              <img className="delete" src="/img/delete.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -75,7 +77,7 @@ export default function MyGigs() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/delete.png" alt="" />
+              <img className="delete" src="/img/delete.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -90,7 +92,7 @@ export default function MyGigs() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/delete.png" alt="" />
+              <img className="delete" src="/img/delete.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -105,11 +107,11 @@ export default function MyGigs() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/delete.png" alt="" />
+              <img className="delete" src="/img/delete.png" alt="" />
             </td>
           </tr>
         </table>
       </div>
     </div>
-  )
+  );
 }

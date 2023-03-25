@@ -1,6 +1,6 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "./CatCard.scss"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./CatCard.scss";
 
 export default function CatCard({ item }) {
   return (
@@ -11,5 +11,5 @@ export default function CatCard({ item }) {
         <span className="title">{item.title}</span>
       </div>
     </Link>
-  )
+  );
 }

@@ -1,8 +1,7 @@
-import React from 'react'
-import "./Orders.scss"
+import React from "react";
+import "./Orders.scss";
 
 export default function Orders() {
-
   const currentUser = {
     id: 1,
     username: "Anna",
@@ -10,7 +9,7 @@ export default function Orders() {
   };
 
   return (
-    <div className='orders'>
+    <div className="orders">
       <div className="container">
         <div className="title">
           <h1>Orders</h1>
@@ -35,7 +34,7 @@ export default function Orders() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/message.png" alt="" />
+              <img className="delete" src="/img/message.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -50,7 +49,7 @@ export default function Orders() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/message.png" alt="" />
+              <img className="delete" src="/img/message.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -65,7 +64,7 @@ export default function Orders() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/message.png" alt="" />
+              <img className="delete" src="/img/message.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -80,7 +79,7 @@ export default function Orders() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/message.png" alt="" />
+              <img className="delete" src="/img/message.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -95,7 +94,7 @@ export default function Orders() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/message.png" alt="" />
+              <img className="delete" src="/img/message.png" alt="" />
             </td>
           </tr>
           <tr>
@@ -110,11 +109,11 @@ export default function Orders() {
             <td>88</td>
             <td>123</td>
             <td>
-              <img className='delete' src="/img/message.png" alt="" />
+              <img className="delete" src="/img/message.png" alt="" />
             </td>
           </tr>
         </table>
       </div>
     </div>
-  )
+  );
 }

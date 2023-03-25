@@ -1,9 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
-import "./Messages.scss"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Messages.scss";
 
 export default function Messages() {
-
   const currentUser = {
     id: 1,
     username: "Anna",
@@ -16,7 +15,7 @@ export default function Messages() {
   nobis praesentium placeat.`;
 
   return (
-    <div className='messages'>
+    <div className="messages">
       <div className="container">
         <div className="title">
           <h1>Messages</h1>
@@ -30,7 +29,11 @@ export default function Messages() {
           </tr>
           <tr className="active">
             <td>John Doe</td>
-            <td><Link to="/message/123" className='link'>{message.substring(0, 100)}...</Link></td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
             <td>1 day ago</td>
             <td>
               <button>Mark as Read</button>
@@ -38,7 +41,11 @@ export default function Messages() {
           </tr>
           <tr className="active">
             <td>John Doe</td>
-            <td><Link to="/message/123" className='link'>{message.substring(0, 100)}...</Link></td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
             <td>1 day ago</td>
             <td>
               <button>Mark as Read</button>
@@ -46,7 +53,11 @@ export default function Messages() {
           </tr>
           <tr>
             <td>John Doe</td>
-            <td><Link to="/message/123" className='link'>{message.substring(0, 100)}...</Link></td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
             <td>1 day ago</td>
             <td>
               <button>Mark as Read</button>
@@ -54,7 +65,11 @@ export default function Messages() {
           </tr>
           <tr>
             <td>John Doe</td>
-            <td><Link to="/message/123" className='link'>{message.substring(0, 100)}...</Link></td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
             <td>1 day ago</td>
             <td>
               <button>Mark as Read</button>
@@ -62,7 +77,11 @@ export default function Messages() {
           </tr>
           <tr>
             <td>John Doe</td>
-            <td><Link to="/message/123" className='link'>{message.substring(0, 100)}...</Link></td>
+            <td>
+              <Link to="/message/123" className="link">
+                {message.substring(0, 100)}...
+              </Link>
+            </td>
             <td>1 day ago</td>
             <td>
               <button>Mark as Read</button>
@@ -71,5 +90,5 @@ export default function Messages() {
         </table>
       </div>
     </div>
-  )
+  );
 }

@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "./GigCard.scss"
+import React from "react";
+import { Link } from "react-router-dom";
+import "./GigCard.scss";
 
 export default function GigCard({ item }) {
   return (
-    <Link to="/gig/123" className='link'>
-      <div className='gigCard'>
+    <Link to="/gig/123" className="link">
+      <div className="gigCard">
         <img src={item.img} alt="" />
         <div className="info">
           <div className="user">
@@ -28,5 +28,5 @@ export default function GigCard({ item }) {
         </div>
       </div>
     </Link>
-  )
+  );
 }
