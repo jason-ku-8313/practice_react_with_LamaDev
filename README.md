@@ -4,6 +4,8 @@
 
 ## Demo
 
+https://my-fiverr-jk.netlify.app
+
 ## Tech Stack
 
 - [React](https://reactjs.org/)
